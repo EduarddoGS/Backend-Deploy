@@ -10,12 +10,6 @@ const config = {
     options:{
       trustServerCertificate: true,
       connectionTimeout: 30000,
-    },
-    dialectOptions : {
-      ssl : {
-        require: true,
-        rejectUnauthorized: false
-      }
     }
   };
 
